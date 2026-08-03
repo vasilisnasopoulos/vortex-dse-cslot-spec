@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Vortex DSE — C-slot admission specification"
+message: Please cite this work using these metadata.
+type: software
+authors:
+  - given-names: Vasilis
+    family-names: Nasopoulos
+abstract: >-
+  Executable TLA+ specification of the strict C-slot admission rule used by the Vortex DSE consensus protocol, with reference scenarios and TLC model configurations.
+repository-code: "https://github.com/vasilisnasopoulos-stack/vortex-dse-cslot-spec"
+url: "https://vasilisnasopoulos-stack.github.io"
+license: Apache-2.0
+keywords:
+  - TLA+
+  - TLAPS
+  - formal methods
+  - distributed consensus
+  - model checking
