@@ -1,6 +1,6 @@
 > **Vortex DSE public verification bundle**
 >
-> [Proofs](https://github.com/vasilisnasopoulos-stack/vortex-dse-cslot-proofs) · [Strict spec](https://github.com/vasilisnasopoulos-stack/vortex-dse-cslot-spec) · [Merkle agreement](https://github.com/vasilisnasopoulos-stack/vortex-merkle-agreement)
+> [Proofs](https://github.com/vasilisnasopoulos/vortex-dse-cslot-proofs) · [Strict spec](https://github.com/vasilisnasopoulos/vortex-dse-cslot-spec) · [Merkle agreement](https://github.com/vasilisnasopoulos/vortex-merkle-agreement)
 
 # Vortex DSE — C-Slot Strict Admission
 
@@ -26,9 +26,9 @@ If the transaction is not in the current slot, it is rejected.
 
 | Repository | Role | Verification status |
 |---|---|---|
-| [vortex-dse-cslot-proofs](https://github.com/vasilisnasopoulos-stack/vortex-dse-cslot-proofs) | Late-tolerant C-slot admission; deductive safety proofs | TLAPS: `[]TypeInvariant`, `[]NoFutureAdmission`; all 194 obligations proved |
+| [vortex-dse-cslot-proofs](https://github.com/vasilisnasopoulos/vortex-dse-cslot-proofs) | Late-tolerant C-slot admission; deductive safety proofs | TLAPS: `[]TypeInvariant`, `[]NoFutureAdmission`; all 194 obligations proved |
 | **vortex-dse-cslot-spec** ← you are here | Strict C-slot admission, clock skew, Byzantine timestamp/origin spoofing, executable reference | TLC bounded checks; JavaScript reference scenarios |
-| [vortex-merkle-agreement](https://github.com/vasilisnasopoulos-stack/vortex-merkle-agreement) | Per-slot input-set agreement: Freeze → Reconcile → Commit | TLC + Apalache bounded checks under declared assumptions |
+| [vortex-merkle-agreement](https://github.com/vasilisnasopoulos/vortex-merkle-agreement) | Per-slot input-set agreement: Freeze → Reconcile → Commit | TLC + Apalache bounded checks under declared assumptions |
 
 ## Strict vs late-tolerant admission
 

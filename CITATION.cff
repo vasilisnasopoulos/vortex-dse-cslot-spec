@@ -7,8 +7,8 @@ authors:
     family-names: Nasopoulos
 abstract: >-
   Executable TLA+ specification of the strict C-slot admission rule used by the Vortex DSE consensus protocol, with reference scenarios and TLC model configurations.
-repository-code: "https://github.com/vasilisnasopoulos-stack/vortex-dse-cslot-spec"
-url: "https://vasilisnasopoulos-stack.github.io"
+repository-code: "https://github.com/vasilisnasopoulos/vortex-dse-cslot-spec"
+url: "https://vasilisnasopoulos.github.io"
 license: Apache-2.0
 keywords:
   - TLA+

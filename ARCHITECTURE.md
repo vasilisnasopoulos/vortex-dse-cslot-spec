@@ -3,7 +3,7 @@
 > **Part-of-machine notice:** this document sketches the **full research stack** for orientation.
 > **This repository publishes only the admission part** (`Vortex_DSE_CSlot.tla`,
 > `Vortex_DSE_CSlot_Skew.tla`). Layers shown below that are not in this repo are
-> either another [public part](https://github.com/vasilisnasopoulos-stack/vasilisnasopoulos-stack/blob/main/SLICES.md)
+> either another [public part](https://github.com/vasilisnasopoulos/vasilisnasopoulos/blob/main/SLICES.md)
 > or **private / not on GitHub**. Nothing in this file implies every box is
 > machine-checked in the public bundle.
 
@@ -277,7 +277,7 @@ but are critical to validity:
 ## Repository Structure
 
 ```
-vasilisnasopoulos-stack/
+vasilisnasopoulos/
 
 ├── vortex-dse-cslot-spec/                  [THIS REPO]
 │   │   [CORE: C-slot admission + Byzantine variant]
@@ -365,7 +365,7 @@ node ref_impl/cslot_ref.mjs
                   Loss Recovery via Merkle Union + 
                   Cross-Slot Exactly-Once Deduplication},
   year         = {2026},
-  howpublished = {\url{https://github.com/vasilisnasopoulos-stack/vortex-dse-cslot-spec}},
+  howpublished = {\url{https://github.com/vasilisnasopoulos/vortex-dse-cslot-spec}},
   note         = {Companion specs: vortex-merkle-agreement, vortex-loss-recoverability}
 }
 ```
