@@ -1,3 +1,5 @@
+> **Moved.** This repository now lives in [vortex-dse-formal/cslot-spec](https://github.com/vasilisnasopoulos/vortex-dse-formal/tree/main/cslot-spec), with its full history. This copy is archived (read-only).
+
 > **Vortex DSE public verification bundle**
 >
 > [Proofs](https://github.com/vasilisnasopoulos/vortex-dse-cslot-proofs) · [Strict spec](https://github.com/vasilisnasopoulos/vortex-dse-cslot-spec) · [Merkle agreement](https://github.com/vasilisnasopoulos/vortex-merkle-agreement)
